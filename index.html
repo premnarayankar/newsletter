@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Signika&display=swap");
+
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        overflow-x: hidden;
+        font-family: sans-serif;
+        width: 90vw;
+        margin: 0 auto;
+      }
+      .img-fluid {
+        width: 100%;
+      }
+      .main-container {
+        width: 90%;
+        margin: 0 auto;
+      }
+      .main-content {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 40px;
+      }
+      .img-banner {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 40px;
+      }
+      .banner-container {
+        display: flex;
+        padding: 20px;
+        background: #d6effc;
+      }
+      .banner-content {
+        width: 50%;
+        margin: 0 auto;
+        display: grid;
+        place-items: center;
+      }
+      .section {
+        width: 48%;
+      }
+      .bio {
+        font-family: poppins;
+        line-height: 25px;
+        font-style: italic;
+        margin: 0px 0 30px 0;
+      }
+      .font-fam {
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+      }
+      .signature {
+        float: right;
+        text-align: center;
+        font-weight: 600;
+        text-transform: uppercase;
+      }
+      .fw {
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        font-weight: 500;
+        font-size: 18px;
+      }
+      .name {
+        font-family: "Signika", sans-serif;
+        font-size: 35px;
+      }
+      .highlight {
+        margin-bottom: 15px;
+      }
+      .highlight-content {
+        margin: 5px 0 25px 0;
+      }
+      .flex {
+        display: flex;
+        align-items: center;
+      }
+      .flex-start {
+        justify-content: flex-start;
+      }
+      .bullet {
+        margin-right: 10px;
+      }
+      .m-l {
+        margin-left: 40px;
+      }
+      .img-size {
+        width: 25%;
+      }
+      @media screen and (max-width: 1000px) {
+        /* .name {
+          font-size: 30px;
+        } */
+        .main-content {
+          flex-direction: column;
+        }
+        .section {
+          width: 100%;
+        }
+        .section-mobile {
+          padding-top: 30px;
+          margin-top: 50px;
+          border-top: 1px solid grey;
+        }
+        .img-size {
+          height: 50px;
+          width: auto;
+        }
+        .future {
+          height: 70px;
+        }
+      }
+      @media screen and (max-width: 637px) {
+        .banner-container img {
+          width: 30%;
+          height: fit-content;
+        }
+        .name {
+          font-size: 18px;
+        }
+        .title {
+          font-size: 20px;
+          padding: 10px 0;
+        }
+        .main-content {
+          margin-top: 20px;
+        }
+        .fw {
+          font-size: 14px;
+        }
+      }
+      .p-y {
+        padding: 25 px 0 10px 0;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img src="Drome-news-letter-art-work.jpg" class="img-fluid" alt="" />
+    </header>
+    <main class="main-container">
+      <div class="main-content">
+        <div class="section">
+          <div class="img-banner">
+            <div class="font-fam">
+              <h2 class="title">From the Chairman's Desk</h2>
+            </div>
+            <div class="banner-container">
+              <img src="pic.jpg" alt="" />
+              <div class="banner-content">
+                <div>
+                  <h1 class="name">V. Swaminathan</h1>
+                  <p class="fw">
+                    Executive Chairman, Andromeda Sales and Distribution Private
+                    Limited
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <p class="bio">Dear All,</p>
+
+          <p class="bio">
+            “Wish you all a very Happy Festive Season! We at Andromeda are
+            extremely excited to bring to you good tidings. We believe that
+            2022-23 is working well in our favour. Indeed, it has been our
+            finest year so far. Our revenues, disbursals, branch strength,
+            number of employees are all at the highest ever levels. We are fully
+            geared up and ready to take on the challenge of achieving a
+            significant milestone: crossing the INR 50,000 Cr disbursal mark for
+            the year.
+          </p>
+
+          <p class="bio">
+            2022 has also been the year of hope and growth as the economy
+            recovers from the pandemic related disruptions. The pandemic has
+            accelerated the digital transformation journey for lenders and
+            distributors alike. Andromeda, being India’s largest loan
+            distributor has a ring-side view of these developments. A
+            significant factor which has powered our loan originations has been
+            the active use of technology.
+          </p>
+
+          <p class="bio">
+            I would like to use this newsletter to convey my gratitude to each
+            and every one of you for your continued support. Our partners and
+            employees are our true strength. The future is Bright, the future is
+            Andromeda!”
+          </p>
+          <div class="signature">
+            <p>V. Swaminathan</p>
+            <p>05/11/2022</p>
+          </div>
+        </div>
+        <div class="section font-fam section-mobile">
+          <h2 class="highlight">October Highlights</h2>
+          <div>
+            <h3>
+              <span class="bullet"><img src="arrow.jpg" alt="" /></span>Growth
+              Momentum Continues
+            </h3>
+            <p class="highlight-content">
+              The month of October continued to be strong for the company. On a
+              Year on Year basis, we are ahead on disbursal by about 86% This is
+              the result of robust branch expansion and smart use of technology.
+            </p>
+          </div>
+          <div>
+            <h3>
+              <span class="bullet"><img src="arrow.jpg" alt="" /></span>Launch
+              of new Andromeda website
+            </h3>
+            <p class="highlight-content">
+              Powered by the latest technology, our new website exhibits an
+              unparalleled user experience. We hope our partners and customers
+              benefit from it.
+            </p>
+          </div>
+          <div>
+            <h3>
+              <span class="bullet"><img src="arrow.jpg" alt="" /></span
+              >Andromeda - Equifax co-branded report
+            </h3>
+            <p class="highlight-content">
+              The Andromeda - Equifax co-branded report is a one-of-a-kind
+              report which provides a ring-side view on retail lending and
+              compares pre and post pandemic activity levels on multiple
+              parameters.
+            </p>
+          </div>
+          <div>
+            <h3>
+              <span class="bullet"><img src="arrow.jpg" alt="" /></span>CRM for
+              telesales staff
+            </h3>
+            <p class="highlight-content">
+              We are delighted to inform you that the adoption of our DigiSmmart
+              platform for our telesales staff has crossed the 400 user mark.
+              The CRM, we hope, will be a huge productivity booster for our
+              telesales staff.
+            </p>
+          </div>
+          <div class="partners">
+            <img src="offers of the month.jpg" alt="" />
+            <div class="flex">
+              <img src="hdfc.jpg" alt="" />
+              <p class="m-l">
+                Special Festive rates on Home Loans, starting at 8.40%
+              </p>
+            </div>
+            <p class="p-y">Get Life Insurance. Get Peace of mind.</p>
+            <div class="flex flex-start">
+              <img src="future.jpg" class="img-size future" alt="" />
+              <img src="bharti.jpg" class="img-size" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <img
+        src="Drome-news-letter-art-work-base-unit.jpg"
+        class="img-fluid"
+        alt=""
+      />
+    </footer>
+  </body>
+</html>
